@@ -120,7 +120,7 @@ def service_connection(key, mask):
       elif (decoded_data['action'] == ACTION_CREATE):
         create(decoded_data['value'])
 
-        sock.send(json_encode(dict(message='Creado com sucesso')))
+        sock.send(json_encode(dict(message='Criado com sucesso')))
       elif (decoded_data['action'] == ACTION_DELETE):
         delete_by_id(decoded_data['value'])
 

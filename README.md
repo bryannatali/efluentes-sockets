@@ -6,6 +6,7 @@
 Executar o script do arquivo `initial_script.sql` no banco de dados postgresql, para obter o banco, tabela e dados necessários para o funcionamento da aplicação.
 
 ## Executar o Programa
+Primeiro, execute o ambiente virtual inicializando o script no caminho venv/bin/activate. De acordo com seu sistema operacional, será diferente a forma de executar o script.
 
 ### Servidor
 Para ter o servidor funcionando, execute o seguinte comando: `python3 socket_server.py <host> <port>` ou `python socket_server.py <host> <port>`, a depender da sua instalação do Python.
