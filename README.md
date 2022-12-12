@@ -1,6 +1,6 @@
 ## Pré Requisitos
  - PostgreSQL
- - Python
+ - Python 3
 
 ## Script do banco de dados
 Executar o script do arquivo `initial_script.sql` no banco de dados postgresql, para obter o banco, tabela e dados necessários para o funcionamento da aplicação.
